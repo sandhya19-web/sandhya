@@ -2,7 +2,7 @@ package pack;
 
 import java.util.Arrays;
 
-public class ArrayAssignement1 {
+public class ArrayAssignment1 {
 	
 	//Assignment1 to find  maximum and minimum value of an array. 	
 	private static int minNumber (int[] num, int min) {
