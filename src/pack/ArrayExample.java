@@ -31,47 +31,10 @@ public class ArrayExample {
 			
 		}
 		System.out.println("Total values "+total);
-		
-/*
- * Assignment 1: Write a Java program to find the maximum and minimum value of
- * an array.
-*/
-		
-		for (int p =1; p<sub.length; p++)
-		{
-			if( max < sub[p] ){
-				max = sub[p];
-			}
-		
-		 }
-		System.out.println("Max value of the Array is :" + max);
+
 
 		
-/*
- * Assignment 2 : Java Program to Add Elements in an Array. Input: Array: [ 1 ,
- * 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 ] Element: 50
-*/
 
-		 int[] array = new int[10];
-		 
-		 for (int q =0; q<array.length; q++) {
-			 array[q] = q+1;
-				/*
-				 * System.out.println(array[q]);
-				 */
-		 }
-		int newArray[] = new int[11];
-		for (int r =0; r< array.length; r++) {
-			newArray[r] = array[r];
-			System.out.println(newArray[r]);
-		
-		}
-		newArray[10] = 50;
-		System.out.println(newArray);
-
-		
-		
-		 
 		 
 		 
 		 
