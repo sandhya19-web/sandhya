@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ArrayAssignement1 {
 	
-	//Assignement1 to find  maximum and minimum value of an array. 	
+	//Assignment1 to find  maximum and minimum value of an array. 	
 	private static int minNumber (int[] num, int min) {
 		
 		for (int i=0; i<num.length ; i++) {
@@ -27,7 +27,7 @@ public class ArrayAssignement1 {
 		return max;
 	}
 	
-	 //Assignement2 Add Elements in an Array.
+	 //Assignment2 Add Elements in an Array.
 	private static int[] addElement(int[] arr, int n) {
 		
 		int element = 50;
@@ -42,7 +42,7 @@ public class ArrayAssignement1 {
 		return newarr;
 	}
 
-	//Assignement3 Remove Duplicate Elements From an Array
+	//Assignment3 Remove Duplicate Elements From an Array
 	private static int removeDeplicate(int[] dupArr, int dup) {
 		
 		int[] temp = new int[dup];
@@ -68,7 +68,7 @@ public class ArrayAssignement1 {
 	
 	public static void main (String a[]) {
 		
-		//Assignement1
+		//Assignment1
 		int num[] = {20,30,10,5,40,60,50};
 		int min = num[0];
 		int max = 0;
@@ -79,14 +79,14 @@ public class ArrayAssignement1 {
 		System.out.println("Maximum value in the array is:: "+min);
 	    System.out.println("Minimum value in the array is:: "+max);
 	    
-	    //Assignement2 Add Elements in an Array.
+	    //Assignment2 Add Elements in an Array.
 	    int arr[] = { 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 };
 	    int n =10;
 	    
 	    int[] addEle = addElement(arr,n);
 	    System.out.println("Output after adding the new element:: "+Arrays.toString(addEle));
 	    
-	    //Assignement3 Remove Duplicate Elements From an Array
+	    //Assignment3 Remove Duplicate Elements From an Array
 	    int dupArr[] = {1, 2, 2, 3, 4, 4, 4, 5, 5};
 	    int dup = dupArr.length;
 	    
