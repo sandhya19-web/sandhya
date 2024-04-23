@@ -29,7 +29,7 @@ public class ArrayExample {
 			
 		}
 		System.out.println("Total values "+total);
-
+System.out.println("hi");
 		
 	
 		
